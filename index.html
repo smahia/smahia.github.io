@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Mahía Gómez - Portfolio</title>
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bulma Version 1-->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    >
+
+    <!-- Modal FX CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css"/>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+    <!-- Animate CDN -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+</head>
+<body>
+
+<!-- Begin Scroll Up Button -->
+<button id="toTop" title="Go to top">
+    <a href="#home"><i class="fas fa-angle-up"></i></a>
+</button>
+<!-- End Scroll Up Button -->
+
+<!-- Begin Hero -->
+<section class="hero is-fullheight" id="home">
+    <div class="hero-body">
+        <div class="">
+            <p class="title animate__animated animate__backInDown has-text-white">Sara Mahía Gómez</p>
+            <p class="subtitle animate__animated animate__backInLeft has-text-white">Full Stack Developer</p>
+        </div>
+    </div>
+
+    <div class="hero-foot">
+        <!-- Begin Navbar -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                   data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu p-0">
+                <div class="navbar-start transparent p-0 is-justify-content-center is-flex-grow-1">
+                    <a class="navbar-item has-text-white" href="#home">
+                        <i class="fa-solid fa-house p-1"></i> Home
+                    </a>
+
+                    <a class="navbar-item has-text-white" href="#about">
+                        <i class="fa-solid fa-circle-user p-1"></i> About me
+                    </a>
+
+                    <a class="navbar-item has-text-white" href="#work">
+                        <i class="fa-solid fa-briefcase p-1"></i> My work
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+        <!-- End Navbar -->
+    </div>
+</section>
+<!-- End Hero -->
+
+<!-- Main content -->
+<main>
+    <div class="container is-fluid p-0">
+        <!-- About me -->
+        <section class="section is-medium has-background-white-bis" data-aos="fade-right" id="about">
+            <h1 class="title mb-3 is-uppercase">About me</h1>
+            <h2 class="subtitle mb-3">
+                My name is Sara and I am a full-stack developer with a keen interest in new technologies,
+                constantly improving my skills in different technologies and languages
+                with one goal in mind: to write the best code possible.
+            </h2>
+
+            <div class="tags are-large mt-5">
+                <span class="tag is-primary">Attention to detail</span>
+                <span class="tag is-primary">Teamwork</span>
+                <span class="tag is-primary">Problem solving</span>
+            </div>
+
+            <div class="tags are-large mt-5">
+                <span class="tag is-info">Symfony</span>
+                <span class="tag is-info">PHP</span>
+                <span class="tag is-info">Angular</span>
+                <span class="tag is-info">JavaScript</span>
+                <span class="tag is-info">Java</span>
+
+                <span class="tag is-info">MySQL</span>
+
+                <span class="tag is-info">Bootstrap</span>
+                <span class="tag is-info">HTML</span>
+                <span class="tag is-info">CSS</span>
+
+                <span class="tag is-info">Docker</span>
+                <span class="tag is-info">Git</span>
+                <span class="tag is-info">Github</span>
+                <span class="tag is-info">Bitbucket</span>
+                <span class="tag is-info">XAMPP</span>
+                <span class="tag is-info">PHPMyAdmin</span>
+
+            </div>
+
+            <p class="is-size-5">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn:
+                <a target="_blank"
+                   href="https://www.linkedin.com/in/saramahiagomez/">
+                https://www.linkedin.com/in/saramahiagomez/
+            </a>
+            </p>
+
+            <p class="is-size-5">
+                <i class="fa-brands fa-github-alt"></i> GitHub: link here
+            </p>
+
+        </section>
+        <!-- End About me -->
+
+        <!-- My work -->
+        <section class="section is-medium has-background-white-ter" data-aos="fade-up-left" id="work">
+            <h1 class="title mb-3 is-uppercase">My work</h1>
+            <h2 class="subtitle mb-3">
+                Here are some of my personal projects.
+                Click on the images to see them full size.
+            </h2>
+
+            <!-- Start Columns -->
+            <div class="columns mt-5">
+
+                <!-- First card -->
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img
+                                        src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                                        alt="Placeholder image" data-target="modal-gamomagic" class="modal-button"
+                                />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex-direction-column">
+                            <p class="title is-4 has-text-centered">Gamomagic</p>
+                            <div class="content">
+                                Application designed
+                                for tracking retro video games.
+                                <br/>
+                                <div class="tags mt-5 is-justify-content-center">
+                                    <span class="tag is-success">Flask</span>
+                                    <span class="tag is-success">Angular</span>
+                                    <span class="tag is-success">Bootstrap</span>
+                                    <span class="tag is-success">MySQL</span>
+                                    <span class="tag is-success">Docker</span>
+                                    <span class="tag is-success">Git</span>
+                                </div>
+                            </div>
+                            <div class="has-text-centered p-3">
+                                <a href="#" target="_blank" class="has-text-black">
+                                    <i class="fa-brands fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End First card -->
+
+                <!-- Second card -->
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img
+                                        src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                                        alt="Placeholder image" data-target="modal-contact-list" class="modal-button"
+                                />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex-direction-column">
+                            <p class="title is-4 has-text-centered">
+                                Contact list - <span class="is-italic">In progress</span>
+                            </p>
+                            <div class="content">
+                                Application for contact management.
+                                <br/>
+                                <div class="tags mt-5 is-justify-content-center">
+                                    <span class="tag is-success">Spring Boot</span>
+                                    <span class="tag is-success">Angular</span>
+                                    <span class="tag is-success">Bulma</span>
+                                    <span class="tag is-success">MySQL</span>
+                                    <span class="tag is-success">Docker</span>
+                                    <span class="tag is-success">Git</span>
+                                </div>
+                            </div>
+                            <div class="has-text-centered p-3">
+                                <a href="#" target="_blank" class="has-text-black">
+                                    <i class="fa-brands fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Second card -->
+
+                <!-- Third card -->
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img
+                                        src="https://bulma.io/assets/images/placeholders/1280x960.png"
+                                        alt="Placeholder image" data-target="modal-notes" class="modal-button"
+                                />
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4 has-text-centered">
+                                App for notes - <span class="is-italic">Future work</span>
+                            </p>
+                            <div class="content">
+                                Application for managing personal notes.
+                                <br/>
+                                <div class="tags mt-5 is-justify-content-center">
+                                    <span class="tag is-success">Symfony</span>
+                                    <span class="tag is-success">Angular</span>
+                                    <span class="tag is-success">Bulma</span>
+                                    <span class="tag is-success">MySQL</span>
+                                    <span class="tag is-success">Docker</span>
+                                    <span class="tag is-success">Git</span>
+                                </div>
+                            </div>
+                            <div class="has-text-centered p-3">
+                                <a href="#" target="_blank" class="has-text-black">
+                                    <i class="fa-brands fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Third card -->
+
+            </div>
+            <!-- End columns -->
+        </section>
+        <!-- End My Work -->
+
+    </div>
+</main>
+<!-- End Main content -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+            The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+            website content is licensed
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >CC BY NC SA 4.0</a
+            >.
+        </p>
+
+        <p>
+            Hero picture from <a href="https://www.pexels.com/photo/turned-on-laptop-computer-574073/"
+            target="_blank">Pexels</a>.
+        </p>
+    </div>
+</footer>
+<!-- End Footer -->
+
+<!--  ===============
+    MODALS CONTENTS
+    ===============  -->
+<!-- Modal first card -->
+<div id="modal-gamomagic" class="modal modal-fx-fadeInScale">
+    <div class="modal-background"></div>
+    <div class="modal-content is-huge is-image">
+        <!-- content -->
+        <img src="https://bulma.io/assets/images/placeholders/1280x960.png"
+             alt="Placeholder image">
+        <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>
+<!-- End Modal first card -->
+
+<!-- Modal second card -->
+<div id="modal-contact-list" class="modal modal-fx-fadeInScale">
+    <div class="modal-background"></div>
+    <div class="modal-content is-huge is-image">
+        <!-- content -->
+        <img src="https://bulma.io/assets/images/placeholders/1280x960.png"
+             alt="Placeholder image">
+        <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>
+<!-- End Modal second card -->
+
+<!-- Modal third card -->
+<div id="modal-notes" class="modal modal-fx-fadeInScale">
+    <div class="modal-background"></div>
+    <div class="modal-content is-huge is-image">
+        <!-- content -->
+        <img src="https://bulma.io/assets/images/placeholders/1280x960.png"
+             alt="Placeholder image">
+        <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>
+<!-- End Modal third card -->
+
+<!--  ===============
+    JAVASCRIPT
+    ===============  -->
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+
+<!-- Bulma Modal FX -->
+<script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+</html>
