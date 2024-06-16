@@ -47,6 +47,10 @@ html {
     cursor: pointer;
 }
 
+.card-project-description {
+    height: 50px;
+}
+
 /* Navbar items */
 .navbar-item:hover {
     background-color: #171414;
